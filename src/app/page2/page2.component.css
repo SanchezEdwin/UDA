@@ -1,0 +1,24 @@
+.pageOption {
+    overflow: hidden;
+    position: relative;
+    width: 18em; height: 12em;
+  }
+  .option, .option img { width: 100%; height: 100%; }
+  .option {
+    overflow: hidden;
+    position: absolute;  
+ 
+    transform: skewX(-55.98deg);
+  }
+  .option:first-child {
+    left: -.25em;
+    transform-origin: 100% 0;
+  }
+  .option:last-child {
+    right: -.25em;
+    transform-origin: 0 100%;
+  }
+  .option img {
+    transform: skewX(55.98deg);
+    transform-origin: inherit;
+  }
